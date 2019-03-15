@@ -41,7 +41,7 @@ public class OfferController {
     }
 
 @GetMapping("/offers")
- public  List<Offer> GetOffers(){
+ public List<Offer> GetOffers(){
 
         return offerRepository.findAll();
 }
